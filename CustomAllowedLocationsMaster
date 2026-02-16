@@ -1,0 +1,25 @@
+{
+  "properties": {
+    "displayName": "Custom - Allowed Locations",
+    "policyType": "Custom",
+    "mode": "All",
+    "description": "This policy definition sets the allowed locations for resources",
+    "metadata": {
+      "category": "",
+      "createdBy": "d1904552-7c07-4eb8-9ba3-91252f952393",
+      "createdOn": "2026-02-16T18:14:40.6468937Z",
+      "updatedBy": null,
+      "updatedOn": null
+    },
+    "version": "1.0.0",
+    "parameters": {
+      "allowedLocations": {
+        "type": "Array",
+        "metadata": {
+          "description": "The list of allowed locations for resources.",
+          "displayName": "Allowed locations",
+          "strongType": "location"
+        }
+      }
+    },
+    "policyRule": {
