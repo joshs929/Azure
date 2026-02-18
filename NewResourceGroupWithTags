@@ -1,0 +1,3 @@
+$tags = @{"Cost Center"="IT"; "Location"="East US"}
+
+New-AzResourceGroup -Name RG01 -Location "East US" -Tag $tags
