@@ -1,0 +1,1 @@
+New-AzResourceLock -LockLevel CanNotDelete -LockName -DontDeleteProd -ResourceGroupName AZ104
